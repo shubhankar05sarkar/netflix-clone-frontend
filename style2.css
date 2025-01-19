@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url(assets/images/bg.png);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+nav{
+    max-width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    position: relative;
+    z-index: 10;
+    padding-top: 10px;
+}
+
+nav img{
+    width: 140px;
+}
+
+.wrapper{
+    width: 500px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    border-radius: 4px;
+    padding: 48px 68px;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    /* top: 10vh; */
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: start;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.wrapper .sibtn{
+    width: 350px;
+    height: 40px;
+    margin:0;
+    cursor: pointer;
+}
+
+.input-box input{
+    padding: 10px 45px 10px 15px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid #716f6f;
+    color: white;
+    width: 350px;
+    height: 56px;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.btn-black-sm:hover{
+    transition: all ease-out 0.3s;
+    background-color: rgba(128,128,128,0.3);
+}
+
+.btn-black-sm:active{
+    background-color: rgba(128,128,128,0.2);
+}
+
+.btn-black-sm{
+    background-color: rgba(128,128,128,0.4);
+    color: white;
+    border-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    padding: 3px 20px;
+}
+
+.wrapper .remember-me{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+}
+
+.wrapper .forgot{
+    display: flex;
+    justify-content: center;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.forgot a:active{
+    color: rgb(229,9,20);
+}
+
+.wrapper .register-link{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+.register-link p a:active{
+    color: rgb(229,9,20);
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+}
+
+.protect{
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+footer{
+    background-color: black;
+    color: #ffffffb3;
+    padding-top: 25vh;
+    padding-bottom: 1px;
+}
+
+footer #ques{
+    margin-left:185px;
+}
+
+footer #number{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+footer #number:active{
+    color: rgb(229,9,20);
+}
+
+.links{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+ul a{
+    display: block;
+    cursor:pointer;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+ul a:active{
+    color:rgb(229,9,20);
+}
+
+footer .details{
+    margin-bottom: 15px;
+}
+
+.copyright{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.love{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.love p{
+    cursor: pointer;
+}
+
+.love p:hover{
+    transition: all ease-out 0.3s;
+    transform: scale(1.1,1.1);
+}
+
+.btm{
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid #494848;
+    color: white;
+    border-radius: 4px;
+    margin-left: 12vw;
+    padding: 3px 30px;
+    cursor:pointer;
+}
+
+.btn-red-sm{
+    background-color: rgb(229,9,20);
+    color: white;
+    border-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    padding: 3px 20px;
+}
+
+.btn-red-sm:hover{
+    background-color: rgb(165, 7, 15);
+    transition: all ease-out 0.3s;
+}
+
+.btn-red-sm:active{
+    background-color: rgb(134, 3, 9);
+}
