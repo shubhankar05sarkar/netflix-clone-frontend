@@ -31,7 +31,7 @@ To view or edit this project, you'll need:
 
 ## License
 
-This project is for educational purposes and is not affiliated with Amazon. Feel free to use the code with attribution.
+This project is for educational purposes and is not affiliated with Netflix. Feel free to use the code with attribution.
 
 ---
 
