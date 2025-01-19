@@ -37,7 +37,7 @@ This project is for educational purposes and is not affiliated with Netflix. Fee
 
 ## **Author**
 
-Created with ❤️ by **Shubhankar Sarkar**.
+Created with ❤️ by **Shubhankar Sarkar**.  
 [GitHub Profile](https://github.com/shubhankar05sarkar)
 
 ---
