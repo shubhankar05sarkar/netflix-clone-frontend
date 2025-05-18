@@ -2,7 +2,7 @@
 
 This is a Netflix clone created by me. It mimics the design and layout of the official Netflix homepage and sign-in page, but it is not affiliated with Netflix in any way. This project demonstrates my skills in HTML, CSS, and web development.
 
-### Deployed at Netlify - 
+### Deployed at Netlify - https://grand-tarsier-eb9868.netlify.app/
 
 ---
 
