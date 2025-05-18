@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix Clone - Sign In</title>
     <link rel="stylesheet" href="style2.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
 </head>
 <body>
     <div class="box"></div>
     <nav>
-        <a href="index.html"><span><img width="53"; src="/assets/images/logo.png"></span></a>
+        <a href="index.html"><span><img width="53" src="/assets/images/logo.png" alt="Netflix Logo"></span></a>
     </nav>
     <div class="wrapper">
         <h1>Sign In</h1>
-        <div class="input-box">
-            <input type="text" placeholder="Email or mobile number" required>
-        </div>
-        <div class="input-box">
-            <input type="password" placeholder="Password" required>
-        </div>
-        <div>
-            <button type="submit" class="sibtn btn-red-sm">Sign In</button>
-        </div>
+        <form action="#" method="POST" autocomplete="off">
+            <div class="input-box">
+                <input type="email" name="email" placeholder="Email or mobile number" required autocomplete="email">
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Password" required autocomplete="current-password">
+            </div>
+            <div>
+                <button type="submit" class="sibtn btn-red-sm">Sign In</button>
+            </div>
+        </form>
 
         <div class="or">OR</div>
 
