@@ -19,8 +19,6 @@ This is a Netflix clone created by me. It mimics the design and layout of the of
 
 - **HTML**: Structure and layout of the page.
 - **CSS**: Styling the page, including fonts, colors, and responsive design.
-- **Google Fonts**: `Poppins` and `Martel Sans` fonts are used for the text styling.
-- **FontAwesome**: Icons for enhanced visual appeal.
 
 ---
 
