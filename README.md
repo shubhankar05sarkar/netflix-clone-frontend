@@ -22,13 +22,6 @@ This is a Netflix clone created by me. It mimics the design and layout of the of
 
 ---
 
-## **Prerequisites**
-To view or edit this project, you'll need:
-- A code editor like [VS Code](https://code.visualstudio.com/).
-- A modern web browser for viewing the project.
-
----
-
 ## **License**
 
 This project is for educational purposes and is not affiliated with Netflix. Feel free to use the code with attribution.
