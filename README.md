@@ -1,6 +1,8 @@
 # Netflix Clone
 
-This is a Netflix clone created by me. It mimics the design and layout of the official Netflix homepage and sign-in page, but it is not affiliated with Netflix in any way. This project demonstrates my skills in HTML, CSS, and web development.
+This Netflix clone is a frontend development project created to replicate the design and layout of the official Netflix homepage and sign-in page. It demonstrates my skills in HTML and CSS by focusing entirely on the user interface (UI) without incorporating backend functionality.
+
+The project highlights modern web design principles, including responsive layouts, visually appealing components, and intuitive navigation, showcasing my expertise in creating polished and professional frontend designs. This clone is purely for educational purposes and is not affiliated with or endorsed by Netflix.
 
 ### Deployed at Netlify - https://grand-tarsier-eb9868.netlify.app/
 
