@@ -7,7 +7,7 @@ The project highlights modern web design principles, including responsive layout
 ### Deployed at Netlify - https://grand-tarsier-eb9868.netlify.app/
 
 ---
-
+ 
 ## **Features**
 
 - **Laptop-Optimized Design**: The layout is tailored to provide the best experience on laptop screens.
